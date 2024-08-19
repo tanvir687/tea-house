@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
     <!-- font awsome cdn  -->
@@ -23,20 +23,63 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind script  -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <!-- header part -->
+    <header class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- header container -->
+      <div class="flex pt-10 mb-20">
+        <!-- text-content  -->
+        <div class="">
+          <h1 class="text-7xl font-bold text-[#1C1C1C] leading-[70px]">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-lg font-medium text-[#777777] leading-5 w-3/4 my-6">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 text-white font-bold"
+          >
+            Explore More <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
+          </button>
+        </div>
+        <!-- image-content  -->
+        <div class="relative">
+          <!-- image  -->
+          <div>
+            <img class="w-full" src="./images/banner.png" alt="" />
+          </div>
+          <!-- card -->
+          <div class="absolute flex items-center grad bg-slate-50 shadow-lg px-2 py-2 
+          md:px-8 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-24">
+            <!-- icon  -->
+            <div>
+              <i class="fa-solid fa-star text-2xl text-[#FFC850]"></i>
+            </div>
+            <!-- text  -->
+            <div class="ml-3">
+              <h2 class="font-bold text-2xl">5.00</h2>
+              <p class="text-slate-500 text-base">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main part  -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28"></main>
     <footer></footer>
   </body>
 </html>
