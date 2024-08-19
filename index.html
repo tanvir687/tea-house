@@ -29,12 +29,15 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
           },
         },
       };
     </script>
   </head>
-  <body>
+  <body class="font-manrope">
     <!-- header part -->
     <header class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- header container -->
@@ -218,31 +221,31 @@
           class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16"
         >
           <!-- text section  -->
-         <div class="flex justify-center items-center overflow-hidden">
-          <div class="w-5/6">
-            <h1 class="text-4xl font-bold mt-10 mb-5">
-              Meet Our Super Clients
-            </h1>
-            <p class="text-base font-normal text-gray-100 mb-5">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-            <button
-              class="bg-white text-red-700 font-bold px-4 py-3 rounded-xl mb-5"
-            >
-              Show All
-            </button>
+          <div class="flex justify-center items-center overflow-hidden">
+            <div class="w-5/6">
+              <h1 class="text-4xl font-bold mt-10 mb-5">
+                Meet Our Super Clients
+              </h1>
+              <p class="text-base font-normal text-gray-100 mb-5">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <button
+                class="bg-white text-red-700 font-bold px-4 py-3 rounded-xl mb-5"
+              >
+                Show All
+              </button>
+            </div>
           </div>
-         </div>
 
           <!--  review cart section  -->
           <div class="relative py-24">
-              <!-- middle cart  -->
-              <div class="absolute z-20 top-48 md:top-52">
-                <div
-                class=" bg-white h-52 rounded-lg w-full md:w-3/4 text-black flex items-center px-10"
+            <!-- middle cart  -->
+            <div class="absolute z-20 top-48 md:top-52">
+              <div
+                class="bg-white h-52 rounded-lg w-full md:w-3/4 text-black flex items-center px-10"
               >
                 <!-- img section  -->
                 <div class="absolute -top-5 -left-5 bg-white rounded-full">
@@ -251,8 +254,8 @@
                 <!-- text  -->
                 <div>
                   <p class="text-gray-500 mb-5">
-                    We are providing the best and suitable home insurance services
-                    for the people who are interested to treatment
+                    We are providing the best and suitable home insurance
+                    services for the people who are interested to treatment
                   </p>
                   <h1 class="text-xl font-bold">Ilham Yuda</h1>
                   <small class="text-base text-gray-600 mt-5 font-semibold"
@@ -260,7 +263,7 @@
                   >
                 </div>
               </div>
-              </div>
+            </div>
 
             <!-- top cart  -->
             <div
@@ -283,133 +286,221 @@
               </div>
             </div>
 
-             <!-- bottom cart  -->
-             <div
-             class="relative left-8 md:left-32 opacity-40 top-10 bg-white h-52 rounded-lg w-full md:w-3/4 text-black flex items-center px-10"
-           >
-             <!-- img section  -->
-             <div class="absolute -top-5 -left-5 bg-white rounded-full">
-               <img class="p-1" src="./images/client.png" alt="" />
-             </div>
-             <!-- text  -->
-             <div>
-               <p class="text-gray-500 mb-5">
-                 We are providing the best and suitable home insurance services
-                 for the people who are interested to treatment
-               </p>
-               <h1 class="text-xl font-bold">Ilham Yuda</h1>
-               <small class="text-base text-gray-600 mt-5 font-semibold"
-                 >Businessmen</small
-               >
-             </div>
-           </div>
-
-
+            <!-- bottom cart  -->
+            <div
+              class="relative left-8 md:left-32 opacity-40 top-10 bg-white h-52 rounded-lg w-full md:w-3/4 text-black flex items-center px-10"
+            >
+              <!-- img section  -->
+              <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                <img class="p-1" src="./images/client.png" alt="" />
+              </div>
+              <!-- text  -->
+              <div>
+                <p class="text-gray-500 mb-5">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <h1 class="text-xl font-bold">Ilham Yuda</h1>
+                <small class="text-base text-gray-600 mt-5 font-semibold"
+                  >Businessmen</small
+                >
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-
+      <!-- news and event section  -->
+      <section class="mb-24">
+        <!-- news container  -->
+        <div>
+          <!-- text-container  -->
+          <div class="text-center mb-5 space-y-10">
+            <h2 class="text-black font-extrabold text-4xl">News & Events</h2>
+            <p class="text-gray-500 text-base w-5/6 mx-auto ">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+          </div>
+          <!-- news cart container -->
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+            <!-- news cart  -->
+            <!-- news-cart 01 -->
+             <div class="p-4 bg-gray-50 rounded-lg border border-solid">
+              <div>
+                <img src="./images/news-1.png" alt="">
+              </div>
+              <!-- text  -->
+              <div class="space-y-3"> 
+                <h4 class="text-sm font-bold text-gray-400 mt-4">Feb 05, 2027</h4>
+                <h1 class="font-extrabold text-black text-lg">Collecting 8 points for <br> discount</h1>
+                <p class="text-sm text-gray-700 font-normal">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="text-base text-black font-extrabold">Learn More</h2>
+              </div>
+             </div>
+            <!-- news-cart 02 -->
+             <div class="p-4  bg-gray-50 rounded-lg border border-solid">
+              <div>
+                <img src="./images/news-2.png" alt="">
+              </div>
+              <!-- text  -->
+              <div class="space-y-3"> 
+                <h4 class="text-sm font-bold text-gray-400 mt-4">Feb 05, 2027</h4>
+                <h1 class="font-extrabold text-black text-lg">Collecting 8 points for <br> discount</h1>
+                <p class="text-sm text-gray-700 font-normal">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="text-base text-black font-extrabold">Learn More</h2>
+              </div>
+             </div>
+            <!-- news-cart 03 -->
+             <div class="p-4  bg-gray-50 rounded-lg border border-solid">
+              <div>
+                <img src="./images/news-3.png" alt="">
+              </div>
+              <!-- text  -->
+              <div class="space-y-3"> 
+                <h4 class="text-sm font-bold text-gray-400 mt-4">Feb 05, 2027</h4>
+                <h1 class="font-extrabold text-black text-lg">Collecting 8 points for <br> discount</h1>
+                <p class="text-sm text-gray-700 font-normal">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="text-base text-black font-extrabold">Learn More</h2>
+              </div>
+             </div>
+           </div>
+        </div>
+      </section>
     </main>
     <!-- footer section  -->
     <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px16">
       <div class="w-9/12 mx-auto">
         <!-- logo section  -->
-         <div class="mb-12 flex justify-between">
-          <img class="mb-12 text-3xl" src="./images/cup.png" alt="">
+        <div class="mb-12 flex justify-between">
+          <img class="mb-12 text-3xl" src="./images/cup.png" alt="" />
           <div class="flex items-center gap-3">
             <h4 class="font-medium text-gray-600">Ready to get strated?</h4>
-            <button class="rounded-lg bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 text-white font-bold">Get strated?</button>
+            <button
+              class="rounded-lg bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 text-white font-bold"
+            >
+              Get strated?
+            </button>
           </div>
-         </div>
-         <!-- links section  -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <!-- first column -->
-            <div>
-              <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Home</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">About Us</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Insurance</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Quick Links</a>
-                </li>
-              </ul>
-            </div>
+        </div>
+        <!-- links section  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- first column -->
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Home</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Insurance</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Quick Links</a
+                >
+              </li>
+            </ul>
+          </div>
 
-             <!-- second column -->
-             <div>
-              <h4 class="text-xl font-semibold mb-4">Our Service</h4>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Life Insurance</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Car Insurance</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Health Insurance</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">House Insurance</a>
-                </li>
-              </ul>
-            </div>
+          <!-- second column -->
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Our Service</h4>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Life Insurance</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Car Insurance</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Health Insurance</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >House Insurance</a
+                >
+              </li>
+            </ul>
+          </div>
 
-            <!-- Third column -->
-            <div>
-              <h4 class="text-xl font-semibold mb-4">Help</h4>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">FAQs</a>
-                </li>
-              </ul>
-              <ul class="space-y-2">
-                <li>
-                  <a class="hover:text-orange-500 font-normal text-base" href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
+          <!-- Third column -->
+          <div>
+            <h4 class="text-xl font-semibold mb-4">Help</h4>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >FAQs</a
+                >
+              </li>
+            </ul>
+            <ul class="space-y-2">
+              <li>
+                <a class="hover:text-orange-500 font-normal text-base" href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
 
-            <!-- fourth column  -->
-             <div>
-              <h4 class="text-xl font-semibold mb-4">Subscribe to our newsletter</h4>
-              <div class="flex flex-col space-y-2">
-                <div>
-                  <input type="text" placeholder="Email Address"
-                   class="bg-transparent border-b-2 border-black w-4/6">
-                   <i class="fa-solid fa-circle-chevron-right text-orange-600 text-2xl"></i>
-                   <div class="flex items-center content-center mt-8 mb-2 w-3/5 space-x-4">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-square-instagram"></i>
-                   </div>
-                   
+          <!-- fourth column  -->
+          <div>
+            <h4 class="text-xl font-semibold mb-4">
+              Subscribe to our newsletter
+            </h4>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="bg-transparent border-b-2 border-black w-4/6"
+                />
+                <i
+                  class="fa-solid fa-circle-chevron-right text-orange-600 text-2xl"
+                ></i>
+                <div
+                  class="flex items-center content-center mt-8 mb-2 w-3/5 space-x-4"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
                 </div>
               </div>
-             </div>
+            </div>
           </div>
-          <div class="text-center mt-6 mb-5 text-sm text-gray-500">
-            <p>© 2027 UIDesign.to - All rights reserved.</p>
-           </div>
+        </div>
+        <div class="text-center mt-6 mb-5 text-sm text-gray-500">
+          <p>© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
       </div>
     </footer>
   </body>
